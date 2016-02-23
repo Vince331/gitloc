@@ -1,3 +1,6 @@
+$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+require 'gitloc/version'
+
 #nformation, not mine :)
 Gem::Specification.new do |s|
   s.name        = 'gitloc-Vince'
